@@ -6,6 +6,8 @@ Apoie: 1CriPTo6QLCLHe6qjzz4dVjUAQm9EnZHQu
 Criptologia Hardware Wallet
 ==============
 
+*"People who are really serious about software should make their own hardware".* (Alan Kay, 1982)
+
 Hardware Wallet PARA PROPÓSITOS ACADÊMICOS
 
 ```c
