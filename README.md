@@ -10,13 +10,18 @@ Hardware Wallet PARA PROPÓSITOS ACADÊMICOS
 
 ```c
 /*
-ATENÇÃO - Este é um projeto acadêmico. Tenha sempre a sua chave privada salva em mais de um lugar (Paper Wallet, HD, Pen drive...). caso o microcontrolador queime ou aconteça algum imprevisto, é impossível recuperar sua chave. Crie backups antes de cifrá-la com este programa.
+ATENÇÃO - Este é um projeto acadêmico. Tenha sempre a sua chave privada 
+salva em mais de um lugar (Paper Wallet, HD, Pen drive...). caso o 
+microcontrolador queime ou aconteça algum imprevisto, é impossível recuperar
+sua chave. Crie backups antes de cifrá-la com este programa.
 
-UTILIZE ESTE PROGRAMA APENAS PARA FINS ACADÊMICOS E PARA FINS DE TESTES. SUA CHAVE PRIVADA É DE SUA RESPONSABILIDADE. NÃO EXISTE NENHUMA GARANTIA PARA ESTE PROGRAMA. USE POR SUA CONTA E RISCO.
+UTILIZE ESTE PROGRAMA APENAS PARA FINS ACADÊMICOS E PARA FINS DE TESTES. 
+SUA CHAVE PRIVADA É DE SUA RESPONSABILIDADE. NÃO EXISTE NENHUMA GARANTIA 
+PARA ESTE PROGRAMA. USE POR SUA CONTA E RISCO.
 */
 ```
 
-Este projeto utiliza a biblioteca [AESLib](https://github.com/DavyLandman/AESLib). Os fontes foram colocados no mesmo diretóri do sketch do Arduino para facilitar o teste por usuários novatos.
+Este projeto utiliza a biblioteca [AESLib](https://github.com/DavyLandman/AESLib). Os fontes foram colocados no mesmo diretório do sketch do Arduino para facilitar o teste por usuários novatos.
 
 Instalação
 -----
