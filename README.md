@@ -23,7 +23,7 @@ PARA ESTE PROGRAMA. USE POR SUA CONTA E RISCO.
 */
 ```
 
-Este projeto utiliza a biblioteca [AESLib](https://github.com/DavyLandman/AESLib). Os fontes foram colocados no mesmo diretório do sketch do Arduino para facilitar o teste por usuários novatos.
+Este projeto utiliza a biblioteca [AESLib](https://github.com/DavyLandman/AESLib) e [ArduinoJSON](https://arduinojson.org/). Os fontes foram colocados no mesmo diretório do sketch do Arduino para facilitar o teste por usuários novatos.
 
 Instalação
 -----
@@ -37,16 +37,16 @@ Digitar a chave privada a ser cifrada em data[]. Ter atenção que são necessá
 char data[] = "Private key: 5JNoArCkTHzwUSRXsqmvM5DM9RmBjQ5XfVztHdbiPhNi4JEAWDc"; //64 chars == 64 bytes
 ```
 
-Recursos
+Recursos (ROADMAP)
 -----
 
--  [X] Armazenamento seguro com AES 192 em CBC
--  [ ] Receber pagamentos (identificar)
+-  [X] Armazenamento seguro com AES 192 em CBC | [Vídeo](https://www.youtube.com/watch?v=8JBHvkuzdfw) 
+-  [X] Receber pagamentos (identificar) | [Vídeo](https://www.youtube.com/watch?v=H1p9xm86ZPA)
+-  [X] Conexão com Internet
 -  [ ] Geração de números verdadeiramente aleatórios
 -  [ ] Geração de chave (curva elíptica)
 -  [ ] Assinatura de transações Bitcoin
 -  [ ] Interface gráfica
--  [ ] Conexão com Internet
 -  [ ] Proteção contra fault-injection
 -  [ ] Execução em tempo constante
 -  [ ] Proteção contra ataques de side channel conhecidos
